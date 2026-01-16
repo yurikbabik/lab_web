@@ -1,0 +1,19 @@
+{
+  "name": "precious-gems-crud",
+  "version": "1.0.0",
+  "description": "CRUD додаток для управління колекцією дорогоцінних каменів",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node src/server.js"
+  },
+  "keywords": ["gems", "crud", "express", "nodejs"],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  }
+}
