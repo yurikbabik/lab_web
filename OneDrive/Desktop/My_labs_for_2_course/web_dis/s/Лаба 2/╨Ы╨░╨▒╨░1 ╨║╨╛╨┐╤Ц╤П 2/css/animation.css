@@ -1,0 +1,70 @@
+.header_nav-item a {
+    position: relative;
+    color: #4F5665;
+    display: inline-block;
+    transition: color .3s cubic-bezier(.25,1,.5,1), 
+                transform .3s cubic-bezier(.22,1.22,.35,1);
+}
+
+.header_nav-item a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 0;
+    height: 2px;
+    background: #F53855;
+    transition: width .35s cubic-bezier(.25,1,.5,1);
+    border-radius: 2px;
+}
+
+.header_nav-item a:hover {
+    color: #F53855;
+    transform: translateY(-2px);
+}
+
+.header_nav-item a:hover::after {
+    width: 100%;
+}
+
+.btn_header1 {
+    display: inline-block;
+    transition: transform 0.25s cubic-bezier(.34, 1.56, .64, 1),
+                background-color 0.25s,
+                color 0.25s;
+}
+
+.btn_header1:hover {
+    color: #F53855;
+    transform: scale(1.1);
+}
+
+/* Sign Up */
+.btn_header2 {
+    display: inline-block;
+    transition: transform 0.25s cubic-bezier(.34, 1.56, .64, 1),
+                background-color 0.25s,
+                color 0.25s;
+}
+
+.btn_header2:hover {
+    background-color: #F53855;
+    color: #fff;
+    transform: scale(1.1);
+}
+
+.classic_btn {
+    transition: transform .3s cubic-bezier(.25,1,.5,1),
+                box-shadow .3s cubic-bezier(.25,1,.5,1);
+}
+
+.classic_btn:hover {
+    transform: translateY(-3px) scale(1.04);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, .12);
+}
+
+.classic_btn:active {
+    transform: scale(.92);
+    box-shadow: none;
+}
+

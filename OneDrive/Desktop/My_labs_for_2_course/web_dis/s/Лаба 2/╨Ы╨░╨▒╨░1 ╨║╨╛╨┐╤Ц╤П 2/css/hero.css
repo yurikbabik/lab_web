@@ -1,0 +1,169 @@
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0 20px;
+  max-width: 1300px;
+  margin: 0 auto 142px;
+}
+
+.hero_inner {
+  max-width: 555px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.hero_title {
+  font-size: 50px;
+  font-weight: 500;
+  color: #0B132A;
+  line-height: 70px;
+  margin-top: 100px;
+}
+
+.hero_inner .paragraph {
+  margin-bottom: 50px;
+  margin-top: 5px;
+}
+
+.hero-img img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.hero-img {
+  flex: 1;
+  min-width: 300px;
+  max-width: 600px;
+  text-align: right;
+}
+
+
+
+@media screen and (max-width: 900px){
+  .hero-img {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero-container {
+    flex-direction: column;
+    text-align: center;
+    padding-top: 100px;
+  }
+
+  .hero_inner {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .classic_btn {
+    width: 70%;
+    display: inline-block;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .hero_title {
+    font-size: 32px;
+    line-height: 45px;
+  }
+
+  .hero_inner .paragraph {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .classic_btn {
+    font-size: 14px;
+    padding: 13px 30px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hero-container {
+    max-width: 1400px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .hero_title {
+    font-size: 64px;
+    line-height: 80px;
+    margin-top: 120px;
+  }
+
+  .hero_inner .paragraph {
+    font-size: 18px;
+    line-height: 32px;
+  }
+
+  .classic_btn {
+    font-size: 18px;
+    padding: 18px 50px;
+  }
+
+  .hero-img {
+    max-width: 700px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .hero-container {
+    max-width: 1600px;
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+
+  .hero_title {
+    font-size: 72px;
+    line-height: 90px;
+    margin-top: 140px;
+  }
+
+  .hero_inner .paragraph {
+    font-size: 20px;
+    line-height: 34px;
+  }
+
+  .classic_btn {
+    font-size: 20px;
+    padding: 20px 60px;
+  }
+
+  .hero-img {
+    max-width: 800px;
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  .hero-container {
+    max-width: 1800px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .hero_title {
+    font-size: 80px;
+    line-height: 100px;
+    margin-top: 160px;
+  }
+
+  .hero_inner .paragraph {
+    font-size: 22px;
+    line-height: 36px;
+  }
+
+  .classic_btn {
+    font-size: 22px;
+    padding: 22px 70px;
+  }
+
+  .hero-img {
+    max-width: 900px;
+  }
+}
