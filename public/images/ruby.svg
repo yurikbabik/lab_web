@@ -1,0 +1,13 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="95" fill="#e8e8e8" stroke="#999" stroke-width="2"/>
+  
+  <!-- Gem shape - Ruby -->
+  <polygon points="100,40 140,90 135,160 65,160 60,90" fill="#c41e3a" opacity="0.9"/>
+  <polygon points="100,40 140,90 135,160" fill="#9b1528" opacity="0.8"/>
+  <polygon points="100,40 60,90 65,160" fill="#e63946" opacity="0.85"/>
+  
+  <!-- Shine highlights -->
+  <polygon points="100,45 110,70 105,85" fill="white" opacity="0.6"/>
+  <polygon points="105,85 125,110 120,140" fill="white" opacity="0.3"/>
+</svg>

@@ -1,0 +1,123 @@
+/* Why Choose Us Section Styles */
+.why-choose-us {
+  padding: 5rem 2rem;
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  min-height: 600px;
+}
+
+.why-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.why-title {
+  font-size: 2.8rem;
+  font-weight: 800;
+  text-align: center;
+  color: white;
+  margin: 0 0 1rem 0;
+  letter-spacing: -1px;
+}
+
+.why-subtitle {
+  font-size: 1.2rem;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.8);
+  margin: 0 0 3rem 0;
+  font-weight: 400;
+}
+
+.benefits-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.benefit-card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  padding: 2.5rem;
+  border-radius: 15px;
+  text-align: center;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.benefit-card:hover {
+  background: rgba(255, 255, 255, 0.15);
+  transform: translateY(-8px);
+  border-color: rgba(255, 215, 0, 0.5);
+  box-shadow: 0 15px 40px rgba(255, 215, 0, 0.1);
+}
+
+.benefit-icon {
+  font-size: 3rem;
+  line-height: 1;
+  transition: transform 0.3s ease;
+}
+
+.benefit-card:hover .benefit-icon {
+  transform: scale(1.2) rotate(10deg);
+}
+
+.benefit-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: white;
+  margin: 0;
+  letter-spacing: -0.5px;
+}
+
+.benefit-description {
+  color: rgba(255, 255, 255, 0.7);
+  line-height: 1.6;
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+.benefit-card:hover .benefit-description {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .benefits-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .why-choose-us {
+    padding: 3rem 1rem;
+  }
+
+  .why-title {
+    font-size: 2.2rem;
+  }
+
+  .why-subtitle {
+    font-size: 1rem;
+  }
+
+  .benefits-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .benefit-card {
+    padding: 2rem;
+  }
+
+  .benefit-title {
+    font-size: 1.3rem;
+  }
+
+  .benefit-icon {
+    font-size: 2.5rem;
+  }
+}
