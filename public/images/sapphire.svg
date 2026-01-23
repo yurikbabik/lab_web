@@ -1,0 +1,13 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="95" fill="#e8e8e8" stroke="#999" stroke-width="2"/>
+  
+  <!-- Gem shape - Sapphire -->
+  <polygon points="100,35 148,80 145,170 55,170 52,80" fill="#0066cc" opacity="0.9"/>
+  <polygon points="100,35 148,80 145,170" fill="#003d99" opacity="0.8"/>
+  <polygon points="100,35 52,80 55,170" fill="#0080ff" opacity="0.85"/>
+  
+  <!-- Shine highlights -->
+  <polygon points="100,40 122,68 115,95" fill="white" opacity="0.6"/>
+  <polygon points="115,95 135,130 130,160" fill="white" opacity="0.3"/>
+</svg>
