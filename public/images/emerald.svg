@@ -1,0 +1,13 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="95" fill="#e8e8e8" stroke="#999" stroke-width="2"/>
+  
+  <!-- Gem shape - Emerald -->
+  <polygon points="100,40 145,75 150,165 50,165 55,75" fill="#27a745" opacity="0.9"/>
+  <polygon points="100,40 145,75 150,165" fill="#1a6d2e" opacity="0.8"/>
+  <polygon points="100,40 55,75 50,165" fill="#2ecc71" opacity="0.85"/>
+  
+  <!-- Shine highlights -->
+  <polygon points="100,45 118,65 112,90" fill="white" opacity="0.6"/>
+  <polygon points="112,90 130,125 125,155" fill="white" opacity="0.3"/>
+</svg>
